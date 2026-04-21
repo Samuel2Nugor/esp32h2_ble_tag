@@ -98,15 +98,18 @@ The repository currently contains:
 
 - [`CMakeLists.txt`](./CMakeLists.txt) - top-level ESP-IDF project configuration
 - [`main/CMakeLists.txt`](./main/CMakeLists.txt) - component build configuration for the main application
-- [`main/main.c`](./main/main.c) - current application entry point and main firmware source file
+- [`main/main.c`](./main/main.c) - current application entry point
+- [`docs/setup-build.md`](./docs/setup-build.md) - setup, build, flash, and monitor instructions
+- [`docs/hardware-overview.md`](./docs/hardware-overview.md) - hardware used in this project and related notes
 
 ---
 
 ## Documentation
 
-This root README is intended to describe the repository purpose and scope.
+Additional documentation for this repository:
 
-Additional documentation, such as setup, build, flash, and hardware notes, will be added later as separate files when those documents are created in the repository.
+- [ESP-IDF setup and build guide](./docs/setup-build.md)
+- [ESP32-H2-DevKitM-1 hardware overview](./docs/hardware-overview.md)
 
 ---
 
